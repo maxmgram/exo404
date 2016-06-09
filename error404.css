@@ -1,0 +1,49 @@
+html,body{
+	margin:8;
+	font-family:"helvetica Neue" helvetica, sans serif;
+}
+
+
+/*en tete*/
+
+.header{
+	background-color: white;
+	height:77px;
+}
+.header .menu ul {
+ 	margin-left: :0;
+ 	-webkit-padding-start:0;
+}
+.header .menu li {
+ 	list-style-type: none;
+ 	display:inline;
+ 	margin-left: :10px;
+ 	margin-right:10px;
+}
+.header .menu li a{
+ 	padding-top:5px;
+ 	padding-bottom:5px;
+ 	padding-left:10px;
+ 	padding-right:10px;
+ 	text-decoration: none;
+ 	color:black;
+}
+.header .menu li a:hover{
+	background-color: #ccc;
+}
+
+
+/*contenu*/
+
+
+.content{
+	padding-top :40px;
+	text-align: center;
+	background-color: #ffdb00;
+}
+.content h1{
+	color:#fff;
+}
+.content a{
+	color:#fff;
+}
